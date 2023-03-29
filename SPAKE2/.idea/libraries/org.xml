@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/bin/org" />
+      <root url="file://$PROJECT_DIR$/bin/apidocs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/bin/apidocs/apidocs" />
+    </SOURCES>
+  </library>
+</component>
