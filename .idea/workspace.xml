@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d8ff58-f823-4877-af98-9c5c0dd1d577" name="Changes" comment="" />
+    <list default="true" id="21d8ff58-f823-4877-af98-9c5c0dd1d577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPAKE2/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPAKE2/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPAKE2/src/DeleteFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/DeleteFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPAKE2/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPAKE2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/RunAllTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,12 +40,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
@@ -47,6 +61,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -58,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunAll">
+  <component name="RunManager" selected="Application.DeleteFiles">
     <configuration name="DeleteFiles" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DeleteFiles" />
       <module name="SPAKE2" />
@@ -87,11 +102,23 @@
       <option name="presentableId" value="Default" />
       <updated>1679842508804</updated>
       <workItem from="1679842510021" duration="16241000" />
-      <workItem from="1680089346359" duration="1189000" />
+      <workItem from="1680089346359" duration="7506000" />
+      <workItem from="1680611082763" duration="2307000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

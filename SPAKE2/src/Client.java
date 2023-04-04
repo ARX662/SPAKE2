@@ -4,6 +4,7 @@ import uk.ac.ic.doc.jpair.pairing.Point;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.security.SecureRandom;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Client   {
 
     public static void main(String[] args) throws Exception {
 
-        Long start_time = System.nanoTime();
+       // Long start_time = System.nanoTime(); time for initial file creation
         Scanner Enter = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter password:");
         String password = Enter.nextLine();// Read user input
@@ -35,10 +36,10 @@ public class Client   {
             File Password_text = new File("Password.txt");
             AESEncryption.encrypt(Password_text);
             //calculate time taken to create password.txt
-            Long Time_Elapsed = System.nanoTime() - start_time;
-            System.out.println("Total file creation time of password.txt: " + Time_Elapsed + " ns");
+            // Long Time_Elapsed = System.nanoTime() - start_time;
+            // System.out.println("Total file creation time of password.txt: " + Time_Elapsed + " ns");
 
-            BigInt m = new BigInt(160, new Random());
+            BigInt m = new BigInt(160, new SecureRandom());
             // Creating a sub Generator wM
             Point M = Generators.g1.multiply(Generators.P, m);
             //Creating a sub Generators wM and send to admin
@@ -49,7 +50,7 @@ public class Client   {
             // here we take the Generators to be P.
             // the secret random a
             //a is a 160-bit random integer
-            BigInt a = new BigInt(160, new Random());
+            BigInt a = new BigInt(160, new SecureRandom());
             // g^a = aP
             //Point aP is computed over G1
             Point X = Generators.g1.multiply(Generators.P, a);

@@ -4,16 +4,15 @@ import uk.ac.ic.doc.jpair.pairing.Point;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
+import java.security.SecureRandom;
 import java.util.Random;
 public class Admin {
     public static void main(String[] args) throws Exception {
-
 
         // Wait for Password.txt to be created
         while (!new File("Password.txt").exists()) {
             Thread.sleep(1000);
         }
-
         // reads Password from the user
         System.out.println("Admin: Decrypting...");
         File Password_decrypt = new File("Password.txt");
@@ -28,7 +27,7 @@ public class Admin {
 
 
         // N will be another point used for calculating  of S which will be sent to Alice
-        BigInt n = new BigInt(160,new Random());
+        BigInt n = new BigInt(160, new SecureRandom());
 
         Point N = Generators.g1.multiply(Generators.P,n);
         //Creating a sub Generators wN and send to client
@@ -38,7 +37,7 @@ public class Admin {
 
         // g^b = bP
         //Point aP is computed over G1
-        BigInt b = new BigInt(160, new Random());
+        BigInt b = new BigInt(160, new SecureRandom());
         Point Y = Generators.g1.multiply(Generators.P, b);
 
         //SB will be sent to alice

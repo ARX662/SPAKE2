@@ -10,7 +10,8 @@ import java.util.concurrent.TimeUnit;
 public class DeleteFiles {
 
     public static void main(String[] args) {
-        String path = "C:\\Users\\LEGION\\Desktop\\SPAKE2";
+        File currentdir = new File("");
+        String path =  currentdir.getAbsolutePath();
         String extension = ".txt";
         deleteFile(path, extension);
 
