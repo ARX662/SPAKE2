@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d8ff58-f823-4877-af98-9c5c0dd1d577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPAKE2/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPAKE2/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPAKE2/src/DeleteFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/DeleteFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPAKE2/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPAKE2/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/RunAllTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="21d8ff58-f823-4877-af98-9c5c0dd1d577" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +95,7 @@
       <workItem from="1679842510021" duration="16241000" />
       <workItem from="1680089346359" duration="7506000" />
       <workItem from="1680611082763" duration="2307000" />
+      <workItem from="1680639846002" duration="517000" />
     </task>
     <servers />
   </component>
