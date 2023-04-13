@@ -1,7 +1,8 @@
 public class RunAll   {
     public static void main(String[] args) throws InterruptedException {
+        //uncomment for exe time
         //calculate runtime
-        Long start_time = System.nanoTime();
+       // Long start_time = System.nanoTime();
         // Run the client
         Thread thread1 = new Thread(() -> {
             try {
@@ -28,8 +29,9 @@ public class RunAll   {
         // Wait for them both to finish
         thread1.join();
         thread2.join();
-        Long Time_Elapsed = System.nanoTime() - start_time;
-        System.out.println("Total Execution time for both client and admin is: " +Time_Elapsed + " ns");
+
+       // Long Time_Elapsed = System.nanoTime() - start_time;
+       // System.out.println("Total Execution time for both client and admin is: " +Time_Elapsed + " ns");
 
     }
 }
