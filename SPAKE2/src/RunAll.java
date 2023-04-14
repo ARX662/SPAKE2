@@ -17,7 +17,7 @@ public class RunAll   {
             try {
                 Admin.main(null);
             } catch (Exception e) {
-                System.out.println("Admin: Session timed out!"  + e);
+                System.out.println("Admin: Session timed out! "  + e);
                 System.exit(0);
             }
         });

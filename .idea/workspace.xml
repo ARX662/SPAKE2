@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21d8ff58-f823-4877-af98-9c5c0dd1d577" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPAKE2/src/RunAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/SPAKE2/src/RunAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SPAKE2/RunAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPAKE2/RunAll.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -67,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteFiles">
+  <component name="RunManager" selected="Application.RunAll">
     <configuration name="DeleteFiles" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DeleteFiles" />
       <module name="SPAKE2" />
@@ -100,7 +101,9 @@
       <workItem from="1680611082763" duration="2307000" />
       <workItem from="1680639846002" duration="965000" />
       <workItem from="1680878260514" duration="948000" />
-      <workItem from="1681389026756" duration="3927000" />
+      <workItem from="1681389026756" duration="4144000" />
+      <workItem from="1681397132294" duration="104000" />
+      <workItem from="1681473117138" duration="780000" />
     </task>
     <servers />
   </component>
